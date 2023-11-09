@@ -1,6 +1,12 @@
 import React, { useRef, useState } from "react";
 import headPic from "./file/pic/08.png";
 import Yirga from "./file/pic/Yirga.jpg";
+import Abat from "./file/pic/Abat.jpg";
+import Foreign from "./file/pic/Foreign.jpg";
+import Noc from "./file/pic/Noc.jpg";
+import Usman from "./file/pic/Usman.jpg";
+import Jigega from "./file/pic/Jigega.jpg";
+import Abdujebar from "./file/pic/Abdujebar.jpg";
 import contactme from "./file/pic/contact me.png";
 import logo from "./file/pic/logo.png";
 import cinema from "./file/pic/cinema.jpg";
@@ -281,42 +287,42 @@ function App() {
                 projectDescription="Post tension Slab design for 2 Cinema floors (Adult & Child Cinema) & 4th to Roof floor"
               />
               <Project
-                imgLink={cinema}
+                imgLink={Foreign}
                 projectName="Foreign Affairs (2B+G+18 Apartment Building(Block 2))"
                 projectClients="FDRE Ministry of Foreign affair"
                 projectLocation="AA, Kazanchis"
                 projectDescription="Post tension Slab design from 4th to Roof floor"
               />
               <Project
-                imgLink={cinema}
+                imgLink={Abat}
                 projectName="Abat (B+G+9 Apartment)"
                 projectClients="Abat Real Estate"
                 projectLocation="AA, Kirkos Sub city"
                 projectDescription="Post tension Slab design from Ground to Roof floor"
               />
               <Project
-                imgLink={cinema}
+                imgLink={Noc}
                 projectName="NOC (3B+G+17 Car Parking & Office Building)"
                 projectClients="National Oil Ethiopia Noc"
                 projectLocation="AA, Bole"
                 projectDescription="Post tension Slab design from 2nd Basement Roof floor"
               />
               <Project
-                imgLink={cinema}
+                imgLink={Usman}
                 projectName="Usman Mosque (2B+G+4 Building)"
                 projectClients="Usman Ibnu Afan Mesjid"
                 projectLocation="AA, Lideta Sub city"
                 projectDescription="Post tension Slab design from Ground to Roof floor"
               />
               <Project
-                imgLink={cinema}
+                imgLink={Jigega}
                 projectName="Dehilis (G+4 Hotel)"
                 projectClients="Zam Sam Aaden Gudaa"
                 projectLocation="Jijiga"
                 projectDescription="Post tension Slab design from 1st to Roof floor"
               />
               <Project
-                imgLink={cinema}
+                imgLink={Abdujebar}
                 projectName="Abdujebar (B+6+T Hotel)"
                 projectClients="Abdi Jabaar Shekh"
                 projectLocation="Jijiga"
@@ -333,7 +339,7 @@ function App() {
             <h2>Reinforced Concrete Designs</h2>
             <div className="rcProject">
               <Project
-                imgLink={cinema}
+                
                 projectName="Zeki (B+G+10 Building)"
                 projectClients="Zekaryas Abebe"
                 projectLocation="AA"
