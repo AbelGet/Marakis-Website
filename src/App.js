@@ -1,5 +1,6 @@
 import React, { useRef, useState } from "react";
 import headPic from "./file/pic/08.png";
+import Yirga from "./file/pic/Yirga.jpg";
 import contactme from "./file/pic/contact me.png";
 import logo from "./file/pic/logo.png";
 import cinema from "./file/pic/cinema.jpg";
@@ -10,7 +11,6 @@ import "./media.css";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import {
   faLinkedin,
-  faTwitter,
   faInstagram,
   faWhatsapp,
   faTelegram,
@@ -323,7 +323,7 @@ function App() {
                 projectDescription="Post tension Slab design from 2nd to Roof floor"
               />
               <Project
-                imgLink={cinema}
+                imgLink={Yirga}
                 projectName="Yirga (3B+G+9 Mixed Use Building)"
                 projectClients="Ato Yirga Tefera"
                 projectLocation="AA. Tafo"
