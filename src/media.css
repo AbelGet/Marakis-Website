@@ -1,0 +1,308 @@
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .headerAbout h2 {
+    font-size: 30px;
+  }
+  .headerPic {
+    height: 600px;
+  }
+  .picAbout img {
+    width: 300px;
+    height: 400px;
+  }
+  .responsibility {
+    font-size: 30px;
+  }
+  .responsibilityList {
+    font-size: 15px;
+  }
+  .companyNameExperience {
+    font-size: 30px;
+  }
+  .vertical-line {
+    height: 160vh;
+  }
+  .projectOne {
+    min-width: 350px;
+    max-width: 350px;
+    font-size: 15px;
+    margin: 10px;
+  }
+  .rightcontent {
+    padding-left: 20px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .header {
+    flex-direction: column;
+    margin: 5vh;
+  }
+  .headerAbout {
+    width: 70%;
+  }
+  .headerInner {
+    border-right: none;
+  }
+  .headerPic {
+    width: 50%;
+    height: 300px;
+  }
+  .headerSumery {
+    width: 70%;
+    padding: 50px;
+  }
+  .experience {
+    margin-right: 10px;
+    margin-bottom: 0px;
+  }
+  .contentAbout {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .contentInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .picAbout img {
+    width: 300px;
+    height: 400px;
+  }
+  .experiencediv {
+    width: 90%;
+    height: auto;
+  }
+
+  .contactMe {
+    flex-direction: column;
+  }
+
+  .companyNameExperience {
+    font-size: 30px;
+  }
+
+  .jobTypeExperience {
+    font-size: 20px;
+  }
+
+  .responsibility {
+    font-size: 25px;
+    padding: 0 10px;
+  }
+
+  .responsibilityList {
+    font-size: 15px;
+    padding: 0 10px;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  body {
+    overflow-x: hidden;
+  }
+  .header {
+    flex-direction: column;
+    margin: 5vh;
+  }
+
+  .headerAbout {
+    width: 80%;
+  }
+  .headerPic {
+    width: 80%;
+    height: 300px;
+  }
+  .contentAbout {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .contentInfo {
+    padding: 50px;
+  }
+  .picAbout img {
+    width: 250px;
+    height: 350px;
+  }
+
+  .contactMe {
+    flex-direction: column;
+  }
+  .footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer .pic {
+    width: 100%;
+  }
+  .contentFooter .iconlist {
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 30px;
+  }
+
+  .experiencediv,
+  .vertical-line {
+    display: none;
+  }
+  .experiencedivMobile {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+  }
+
+  .startFromMobile,
+  .startFromMobile {
+    clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 0 100%, 0% 50%, 0 0);
+  }
+
+  .endOnMobile,
+  .endOnMobile {
+    clip-path: polygon(100% 0%, 100% 44%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+  }
+
+  .endOnMobile,
+  .endOnMobile,
+  .startFromMobile,
+  .startFromMobile {
+    background-color: #849ba1;
+    padding: 10px;
+    width: 70px;
+    height: auto;
+    text-align: center;
+  }
+
+  .companyNameExperienceMobile {
+    color: #43655a;
+    font-size: 40px;
+  }
+
+  .jobTypeExperienceMobile {
+    color: #00754b;
+    font-size: 30px;
+  }
+
+  .responsibilityMobile {
+    font-size: 35px;
+    padding: 0 20px;
+  }
+
+  .responsibilityListMobile {
+    font-size: 20px;
+    padding: 0 100px;
+    text-align: justify;
+  }
+}
+@media screen and (max-width: 575px) {
+  body {
+    overflow-x: hidden;
+  }
+  .header {
+    flex-direction: column;
+    margin: 5vh;
+  }
+
+  .headerAbout {
+    width: 80%;
+  }
+  .headerPic {
+    width: 80%;
+    height: 300px;
+  }
+  .contentAbout {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .contentInfo {
+    padding: 50px;
+  }
+  .picAbout img {
+    width: 250px;
+    height: 350px;
+  }
+
+  .contactMe {
+    flex-direction: column;
+  }
+  .footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer .pic {
+    width: 100%;
+  }
+  .contentFooter .iconlist {
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 30px;
+  }
+
+  .experiencediv,
+  .vertical-line {
+    display: none;
+  }
+  .experiencedivMobile {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+  }
+
+  .startFromMobile,
+  .startFromMobile {
+    clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 0 100%, 0% 50%, 0 0);
+  }
+
+  .endOnMobile,
+  .endOnMobile {
+    clip-path: polygon(100% 0%, 100% 44%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+  }
+
+  .endOnMobile,
+  .endOnMobile,
+  .startFromMobile,
+  .startFromMobile {
+    background-color: #849ba1;
+    padding: 10px;
+    width: 70px;
+    height: auto;
+    text-align: center;
+  }
+
+  .companyNameExperienceMobile {
+    color: #43655a;
+    font-size: 40px;
+  }
+
+  .jobTypeExperienceMobile {
+    color: #00754b;
+    font-size: 30px;
+  }
+
+  .responsibilityMobile {
+    font-size: 35px;
+    padding: 0 20px;
+  }
+
+  .responsibilityListMobile {
+    font-size: 20px;
+    padding: 0 100px;
+    text-align: justify;
+  }
+
+  .projectOne {
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+  max-width: 400px;
+  height: auto;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  font-size: 20px;
+  margin: 20px;
+}
+}
