@@ -12,6 +12,7 @@ import logo from "./file/pic/logo.png";
 import cinema from "./file/pic/cinema.jpg";
 import aboutpic from "./file/pic/aboutpic.jpg";
 import Project from "./project";
+import RcProject from "./rcProject";
 import Exprience from "./exprience";
 import "./media.css";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
@@ -338,22 +339,19 @@ function App() {
             </div>
             <h2>Reinforced Concrete Designs</h2>
             <div className="rcProject">
-              <Project
-                
+              <RcProject
                 projectName="Zeki (B+G+10 Building)"
                 projectClients="Zekaryas Abebe"
                 projectLocation="AA"
                 projectDescription="Full Design (Footing, Column, Stair & Slab Design)"
               />
-              <Project
-                imgLink={cinema}
+              <RcProject
                 projectName="Rekik (B+G+7 Apartment Building"
                 projectClients="Rekik Abebe Getahun"
                 projectLocation="AA, Bole"
                 projectDescription="Footing, Column & Shear wall Design"
               />
-              <Project
-                imgLink={cinema}
+              <RcProject
                 projectName="Piassa (2B+G414 Apartment Bldg)"
                 projectClients="Ato Mesay Oli"
                 projectLocation="AA, Bole"
