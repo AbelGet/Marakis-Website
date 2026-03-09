@@ -102,7 +102,7 @@ function App() {
               <br />
               <span>Anebesse</span>
             </h2>
-            <p>
+            <p> ilove you
               I'm a passionate Design Engineer with over two years of experience
               dedicated to crafting impactful solutions. My journey started with
               boundless curiosity, evolving into a seasoned professional who
